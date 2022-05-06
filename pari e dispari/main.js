@@ -25,18 +25,29 @@ do{
 const somma = numero + getRandomNumber(1, 5);
 // controllo se la somma è pari o dispari e nomino il vincitore
 if(isEven(somma)){
-   console.log(somma);
-   console.log("hai vinto");
-} else{
-   console.log(somma);
-   console.log("hai");
+   if(Sutente === "pari"){
+      console.log(somma);
+    console.log("hai vinto");
+   
+   }else{
+      console("hai perso");
+   }
+} 
+else{
+   if(Sutente === "dispari"){
+      console.log("hai vinto")
+   }else{
+      console.log(somma);
+      console.log("hai perso");
+   }
+   
+   
 }
 
 
 // sommiamo i due numeri, 
-// vedo se la somma è apri o dispari
-//
-
+// vedo se la somma è pari o dispari
+// e li confronto con la scelta per determinare il vincitore
 
 
 
