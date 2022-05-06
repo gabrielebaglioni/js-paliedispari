@@ -11,9 +11,12 @@ function palidromeChek(word){
       //controllo che entrambe le metà siano uguali 
       if(word[i] == word[Wordlenght - 1 - i]){
          return "la parola è palindroma"
+      }else{
+         return "la parola non è palindroma"
       }
    }
-   return "la parola non è palindroma"
+
 }
 //chiamo la funzione
 const check = palidromeChek(word)
+console.log(check)
