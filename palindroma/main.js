@@ -20,3 +20,47 @@ function palidromeChek(word){
 //chiamo la funzione
 const check = palidromeChek(word)
 console.log(check)
+
+
+
+
+/////////PAROLA PALINDROMA CON PROPRIETà DELLE STRINGHE/////////////
+ //           PRIMO TENTANTIVO BARANDO
+// var parola = 'osso';
+
+// var parolaInversa = invertiParola(parola);
+
+// if(parola == parolaInversa){
+//     console.log('la parola è palindroma');
+//   } else {
+//     console.log('la parola non è palindroma');
+//   }
+  
+// function invertiParola(str){
+//   var strInversa = str.split('').reverse().join('');  
+//   return strInversa;
+// }
+
+//              SECONDO TENTATIVO NON ANDATO A BUON FINE
+
+// const parola = "otto";
+// let invertiParola = ParolaInversa (parola);
+// if (parola == invertiParola){
+//    console.log("la parola è palindroma");
+// } else{
+//    console.log("la parola non è palindroma");
+// }
+
+
+// function ParolaInversa(inverti){
+//    let invertiParola = "";
+//    let i = parola.length - 1;
+//    while(i < 0){
+//       invertiParola += inverti[i];
+//       i --;
+//    }
+//    return  invertiParola;
+// }
+
+
+
