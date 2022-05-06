@@ -5,11 +5,32 @@
 //___________________________________
 //chiediamo all'utente se vuole pari o disparo 
 //asseconda della sua scelta gli chiediamo di inserire un numero pari o dispari tra 1 e 5 
-const Sutente = prompt("scegli pari o dispari");
-const Nutente = Number(prompt("inserisci un numero compreso tra 1 e 5 asseconda della tua scelta precedente"));
+// const Sutente = prompt("scegli pari o dispari");
+// const Nutente = Number(prompt("inserisci un numero compreso tra 1 e 5 asseconda della tua scelta precedente"));
+// let somma = Number(0);
 
-let Ncomp = getRandomNumber (1, 5);
-console.log(Ncomp)
+// let Ncomp = getRandomNumber (1, 5);
+//  console.log(Ncomp);
+// somma = Ncomp + Nutente;
+// console.log(somma);
+
+
+//l'utente sceglie un numero
+const Sutente = prompt("scegli pari o dispari");
+let numero;
+// 
+do{
+   numero = Number(prompt("inserire un numerio da 1 a 5"));
+} while (numero > 5);
+const somma = numero + getRandomNumber(1, 5);
+// controllo se la somma è pari o dispari e nomino il vincitore
+
+
+
+
+
+
+
 
 
 
