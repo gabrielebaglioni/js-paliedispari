@@ -9,7 +9,7 @@ function palidromeChek(word){
    //ciclo per metà della lunghezza del mio imput
    for(let i = 0; i < Wordlenght / 2; i++){
       //controllo che entrambe le metà siano uguali 
-      if(word[i] == word[Wordlenght - 1 - i]){
+      if(word[i] == word[Wordlenght - 1 + i]){
          return "la parola è palindroma"
       }else{
          return "la parola non è palindroma"
